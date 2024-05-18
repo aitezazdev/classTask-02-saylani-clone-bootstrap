@@ -1,0 +1,91 @@
+#what-we-do{
+    padding-top: 100px;
+}
+
+.things{
+    width: 15%;
+    height: 130px;
+    background-color: #def5b1;
+}
+
+.things:hover{
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#text-succ{
+    color: #a4d83b;
+}
+
+.div-img{
+    height: 250px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.div-img:hover{
+    transform: scale(1.03);
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.div-img .btn{
+    width: 97%;
+    display: block;
+    margin: 0 5px;
+    bottom: 5px;
+}
+
+.div-img p{
+    bottom: 30px;
+    color: #fff;
+}
+
+.div-img .opacity{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dg{
+    width: 45%;
+}
+
+.dg img{
+    border-top-left-radius: 80px;
+}
+
+.saylani-serve-child .w-50{
+    border: 1px solid #fff;
+}
+
+.saylani-serve-child .saylani-serve-child-one{
+    background-color: #a4d83b;
+    border-top-left-radius: 80px;
+}
+
+.other-proj{
+    color: #1d4fa4;
+}
+
+.bc-img{
+    width: 95%;
+    height: 60vh;
+}
+
+.bc-img > img{
+    opacity: 0.2;
+}
+
+.opaque{
+    position: absolute;
+    inset: 0;
+    background-color: #337bbe;
+    z-index: -1;
+}
+
+.bc-img .bg-light img{
+    height: 50px;
+    width: 50px;
+}

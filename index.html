@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./image/logo.png" width="150" alt=""></a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="d-flex ">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -51,34 +51,163 @@
     <!-- main text + image -->
     <div class="d-flex ">
         <div class="px-5 py-5 w-50 ">
-            <h1 class="pt-5 ">Welcome to the <br> <span class="text-success ">Saylani</span> Welfare</h1>
-            <p class="pt-1 ">Saylani Welfare is on the ground and already working with local communities to assess how best to support underprivileged families in more than 63 areas of day to day lives.</p>
-            <button type="button" class="btn btn-outline-secondary pt-1 ">Explore More</button>
+            <h1 class="mt-5  ">Welcome to the <br> <span id="text-succ">Saylani</span> Welfare</h1>
+            <p class="mt-5  ">Saylani Welfare is on the ground and already working with local communities to assess how best to support underprivileged families in more than 63 areas of day to day lives.</p>
+            <button type="button" class="btn btn-outline-secondary mt-1  ">Explore More →</button>
         </div>
         <div class="w-50 d-flex justify-content-center align-items-center ">
             <img class="pt-5 " src="./image/right-img.png" alt="images(.)" width="60%">
         </div>
     </div>
 
+    <!-- what we do -->
+    <div id="what-we-do">
+        <h2 class="text-capitalize text-center p-5 fs-3 ">what we are doing</h2>
+        <div class="w-100 d-flex justify-content-evenly flex-wrap ">
 
-    <div class="d-flex justify-content-center  gap-5 ">
+            <div class="things d-flex flex-column p-3 rounded-2">
+                <div>
+                    <img style="width: 50px; height: 55px;" src="./image/welfare.png" alt="welfare">
+                </div>
+                <p class="align-self-center p-4">Welfare</p>
+            </div>
 
-        <div class="position-relative  ">
-            <div class="card " style="width: 18rem;">
-                <img src="./image/daily-food.jpg" class="card-img-top" alt="...">
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+            <div class="things d-flex flex-column p-3 rounded-2 ">
+                <div>
+                    <img style="width: 50px; height: 55px;" src="./image/medical.png" alt="welfare">
+                </div>
+                <p class="align-self-center p-4">Medical</p>
+            </div>
+            <div class="things d-flex flex-column p-3 rounded-2 ">
+                <div>
+                    <img style="width: 40px; height: 55px;" src="./image/online-sadqa.png" alt="welfare">
+                </div>
+                <p class="align-self-center p-4">Online Sadqah</p>
+            </div>
+            <div class="things d-flex flex-column p-3 rounded-2 ">
+                <div>
+                    <img style="width: 50px;" src="./image/clean-water.png" alt="welfare">
+                </div>
+                <p class="align-self-center p-4">Clean Water</p>
+            </div>
+            <div class="things d-flex flex-column p-3 rounded-2 ">
+                <div>
+                    <img style="width: 50px;" src="./image/education.png" alt="welfare">
+                </div>
+                <p class="align-self-center p-4">Education</p>
+            </div>
+            <div class="things d-flex flex-column p-3 rounded-2 ">
+                <div>
+                    <img style="width: 50px; height: 55px;" src="./image/food.png" alt="welfare">
+                </div>
+                <p class="align-self-center p-4">Food</p>
+            </div>
+
         </div>
-    
-        <div class="card" style="width: 18rem;">
-            <img src="./image/daily-food.jpg" class="card-img-top" alt="...">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-    
-          <div class="card" style="width: 18rem;">
-            <img src="./image/daily-food.jpg" class="card-img-top" alt="...">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+    </div>
+
+    <!-- 3 images with btns -->
+    <div class="w-100 d-flex justify-content-evenly py-5 ">
+
+        <div class="d-flex div-img object-fit-cover rounded-2 overflow-hidden position-relative ">
+            <div class="opacity"></div>
+            <img class="h-100 w-100 " src="./image/daily-food.jpg" alt="daily food">
+            <button style="background-color: #a4d83b" type="button" class="btn btn-success z-2 position-absolute">Donate</button>
+            <p class="z-2 position-absolute fw-bolder px-2">Daily Food</p>
+        </div>
+
+        <div class="d-flex div-img object-fit-cover rounded-2 overflow-hidden position-relative ">
+            <div class="opacity"></div>
+            <img class="h-100 w-100 " src="./image/zakat.jpg" alt="daily food">
+            <button style="background-color: #a4d83b" type="button" class="btn btn-success z-2 position-absolute">Donate</button>
+            <p class="z-2 position-absolute fw-bolder px-2">Zakat</p>
+        </div>
+
+        <div class="d-flex div-img object-fit-cover rounded-2 overflow-hidden position-relative ">
+            <div class="opacity"></div>
+            <img class="h-100 w-100 " src="./image/IT-courses.jpg" alt="daily food">
+            <button style="background-color: #a4d83b" type="button" class="btn btn-success z-2 position-absolute">Donate</button>
+            <p class="z-2 position-absolute fw-bolder px-2">IT Entrepreneurship Courses</p>
+        </div>
+    </div>
+
+    <!-- Saylani Serve -->
+    <div class="d-flex justify-content-between ">
+
+        <div class="dg my-5 object-fit-cover mx-4 position-relative ">
+            <img class="w-100 h-100" src="./image/saylani-serve.jpg" alt="saylani serve">
+            <div class="saylani-serve-child position-absolute top-0 w-100 h-100 d-flex flex-wrap ">
+                <div class="saylani-serve-child-one w-50 h-50 d-flex justify-content-center align-items-center">
+                    <p class="text-center px-5  fs-4 text-light fw-bolder ">Saylani serve almost 300,000 underprivileged on daily basis</p>
+                </div>
+                <div class="w-50 h-50 "></div>
+                <div class="w-50 h-50 "></div>
+                <div class="w-50 h-50 "></div>
+            </div>
+        </div>
+
+        <div class="w-50 my-5 mx-4 ">
+            <h3>Other Projects</h3>
+            <div>
+                <b class="other-proj">Hepatitis</b>
+                <p>Saylani Welfare has also set up a clinic for the best treatment of hepatitis patients where hepatitis patients are being treated</p>
+            </div>
+            <div>
+                <b class="other-proj">Housing Society</b>
+                <p>Saylani Welfare is also providing its own home facility for the homeless people. So far, thousands of houses and flats have been constructed and given in easy installments</p>
+            </div>
+            <div>
+                <b class="other-proj">IT Literacy</b>
+                <p>We are committed to developing more than 1 million software developers, which will add about 100 billion annually to Pakistan's economy and help ease the debt burden on Pakistan</p>
+            </div>
+            <div>
+                <b class="other-proj">Tharparkar</b>
+                <p>In Tharparkar, Saylani has set up several schools and ro plants, dug wells and brought the children there to Karachi and taught them modern technology</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- bc-img -->
+    <div class="bc-img mx-auto mb-5  object-fit-cover position-relative">
+        <div class="opaque"></div>
+        <img class="h-100 w-100" src="./image/lines-bc.png" alt="lines">
+
+        <div class="position-absolute h-100 w-100 top-0 bottom-0 end-0 d-flex justify-content-around align-items-center flex-wrap">
+
+            <div class="d-flex flex-column justify-content-center align-items-center ">
+                <div class="rounded-circle bg-light p-4 d-flex justify-content-center align-items-center ">
+                    <img class="z-3" src="./image/food-daily.png" alt="food daily">
+                </div>
+                <b class="pt-3 fs-3 text-light ">30000</b>
+                <p class=" text-center text-light ">Food <br>(Daily)</p>
+            </div>
+
+            <div class="d-flex flex-column justify-content-center align-items-center ">
+                <div class="rounded-circle bg-light p-4 d-flex justify-content-center align-items-center ">
+                    <img class="z-3" src="./image/family-adapt.png" alt="family adapt">
+                </div>
+                <b class="pt-3 fs-3 text-light ">20000</b>
+                <p class=" text-center text-light ">Family Adaptation<br>(Monthly)</p>
+            </div>
+
+            <div class="d-flex flex-column justify-content-center align-items-center ">
+                <div class="rounded-circle bg-light p-4 d-flex justify-content-center align-items-center ">
+                    <img class="z-3" src="./image/education-de.png" alt="education">
+                </div>
+                <b class="pt-3 fs-3 text-light ">25000</b>
+                <p class=" text-center text-light ">Education<br>(Monthly)</p>
+            </div>
+
+            <div class="d-flex flex-column justify-content-center align-items-center ">
+                <div class="rounded-circle bg-light p-4 d-flex justify-content-center align-items-center ">
+                    <img class="z-3" src="./image/medical-de.png" alt="medical">
+                </div>
+                <b class="pt-3 fs-3 text-light ">125000</b>
+                <p class=" text-center text-light ">Medical<br>(Monthly)</p>
+            </div>
+           
+           
+        </div>
     </div>
 
 </body>

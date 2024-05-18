@@ -32,14 +32,12 @@
 
 .div-img .btn{
     width: 97%;
-    display: block;
     margin: 0 5px;
     bottom: 5px;
 }
 
 .div-img p{
     bottom: 30px;
-    color: #fff;
 }
 
 .div-img .opacity{
@@ -88,4 +86,63 @@
 .bc-img .bg-light img{
     height: 50px;
     width: 50px;
+}
+
+.guide{
+    width: 95%;
+    height: 40vh;
+    background-color: #337bbe;
+}
+
+.guide .email-input{
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.guide .email-input::placeholder{
+    color: #fff;
+}
+
+.opaque-footer{
+    inset: 0;
+    background-color: #4a4a4c;
+    z-index: -1;
+}
+
+.footer{
+    height: 60vh;
+}
+
+.footer > img{
+    opacity: 0.1;
+}
+
+.social-links i{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-links .fa-facebook-f{
+    background-color: #1877F2;
+}
+
+.social-links .fa-x-twitter{
+    background-color: #000;
+}
+
+.social-links .fa-youtube{
+    background-color: #f65151;
+}
+
+.social-links .fa-whatsapp{
+    background-color: #25D366;
 }
